@@ -1,0 +1,231 @@
+.header-text{
+    font-family: system-ui, sans-serif;
+    font-size:x-large;
+    font-weight:bolder;
+    color: rgb(0, 0, 161);
+    margin: 0%;
+    padding-left: 20px;
+
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding-right: 40px;
+    
+    
+}
+
+.nav-list li a{
+    font-size: 15px;
+    color: rgb(0, 0, 161);
+    font-family: system-ui, sans-serif;
+    text-decoration: none;
+    
+
+}
+
+
+
+
+
+.head-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    margin-top: 20px;
+    
+
+
+}
+
+.container1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr ;
+    margin: 40px;
+    width: 90%;
+    background-color: rgb(216, 216, 216);
+    justify-content: center;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 20px;
+    border-radius: 34px;
+}
+
+.container1 h2{
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bold;
+    font-size: 8rem;
+    color:rgb(0, 0, 161);
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    
+}
+
+.container1 p{
+    font-family:'Segoe UI', sans-serif ;
+    margin: 0%;
+    padding: 0%;
+    color:rgb(0, 0, 161);
+    text-align: center;
+}
+
+.scroll-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+}
+
+.container-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    
+}
+
+.completed-title{
+    display: flex;
+    gap: 30px;
+    color: rgb(102, 102, 255);
+    font-family: system-ui, sans-serif;
+    justify-content: center; 
+    
+}
+
+.container1 .imageme{
+    display: block;
+    object-fit: cover;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    background-color: rgb(0, 0, 123);
+    width: 90%;
+    margin: 40px;
+    border-radius: 34px;
+    padding-right: 45px;
+}
+
+.imageme img{
+    object-fit: cover;
+    display: block;
+    width: 80%;
+    border-radius: 50px;
+    padding: 30px;
+    
+}
+
+.aboutme h3{
+    font-family: system-ui, sans-serif ;
+    color: white;
+    padding-top: 50px;
+    
+}
+
+.aboutme p{
+    font-family: system-ui, sans-serif ;
+    color: rgb(213, 216, 255);
+    
+}
+
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    gap: 10px;
+    margin-left: 40px;
+
+}
+
+.container3 h3{
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 70px;
+    text-align: center;
+    padding: 10px;
+    margin: 0% ;
+    color: rgb(0, 0, 161);
+}
+
+.skill1{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(193, 193, 193);
+    border-radius: 34px;
+    padding-right: 10px;
+    width: 70%;
+
+}
+
+.skillimage img{
+    object-fit: cover;
+    display: block;
+    border-radius: 100px;
+    width: 70%;
+    justify-content: center;
+    margin-left: 40px;
+}
+.skilldes1 h3{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    padding-right: 50px;
+}
+
+.skilldes1 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    color: rgb(0, 0, 161);
+}
+
+.container5{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+
+.linkedin{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    height: 100px;
+    border-radius: 34px;
+    background-color: rgb(224, 224, 255);
+    align-items: center;
+    justify-content: center;
+
+}
+
+.linkedinimg{
+    display: block;
+    object-fit: fill;
+    height: 50px;
+    
+    padding-left: 10px;
+    border-radius: 40px;    
+
+}
+
+.link{
+    padding: 10px;
+}
